@@ -1,0 +1,313 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #4649ad;
+    font-size: 15px;
+}
+
+.container {
+    max-width: 1366px;
+    margin: 0 auto;
+    z-index: 1;
+    position: relative;
+}
+
+form {
+    box-sizing: border-box;
+}
+
+.header {
+    background: url('../images/back.jpg') no-repeat center top / cover;
+    padding: 69px 0 0;
+    color: #fff;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.btn {
+    font-weight: 900;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    width: 140px;
+    padding: 10px 10px;
+    display: block;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #4649ad;
+}
+
+.btn-act {
+    width: 241px;
+    background: #2ee3cd;
+    box-shadow: 0px 4px 30px rgba(8, 70, 63, 0.51);
+    border-radius: 100px;
+    font-weight: 900;
+    font-size: 18px;
+    color: #4448aa;
+    padding: 20px 0;
+    display: block;
+    text-align: center;
+}
+
+.btn-act:hover {
+    box-shadow: none;
+}
+
+.btn-act:active {
+    box-shadow: 0 0 25px rgba(0,0,0,0.4) inset;
+}
+
+section {
+    padding-top: 138px;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2:after {
+    content: '';
+    display: block;
+    width: 78px;
+    height: 7px;
+    background: #4649ad;
+    border-radius: 10px;
+    margin-top: 18px;
+    margin-bottom: 93px;
+}
+
+h3 {
+    margin: 0;
+    text-transform:uppercase;
+    font-weight: 900;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 162px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu__item {
+    margin-right: 31px;
+}
+
+.menu__item a {
+    color: #fff;
+    font-weight: 900;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.menu__item a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.btn_header {
+    margin-left: auto;
+}
+
+.offer {
+    display: flex;
+    margin-top: 278px;
+}
+
+.offer__list {
+    font-size: 16px;
+    display: flex;
+}
+
+.offer__adv {
+    margin-right: 40px;
+}
+
+.offer__title {
+    font-size: 50px;
+    letter-spacing: 0.05em;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 59px;
+}
+
+.offer__intro {
+    font-size: 20px;
+}
+
+.btn-act_header {
+    margin-top: 52px;
+    margin-bottom: 377px;
+}
+
+.pic {
+    background: url('../images/main.png') no-repeat right top;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 100%;
+    height: 1137px;
+    z-index: 0;
+}
+
+.merits {
+
+}
+
+.merits__item {
+    padding-left: 177px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    position: relative;
+}
+
+.merits__item_first {
+    background: url('../images/comp.png') no-repeat left center;
+}
+
+.merits__item_first::after {
+    content: '';
+    display: block;
+    background: url('../images/line.jpg');
+    width: 91.5px;
+    height: 106px;
+    position: absolute;
+    top: 160px;
+    left: 10px;
+}
+
+.merits__item_second {
+    background: url('../images/comp2.png') no-repeat left center;
+    margin-left: 130px;
+}
+
+.merits__item_second::after {
+    content: '';
+    display: block;
+    background: url('../images/line.jpg');
+    width: 91.5px;
+    height: 106px;
+    position: absolute;
+    top: 160px;
+    left: 10px;
+}
+
+.merits__item_third {
+    background: url('../images/comp3.png') no-repeat left center;
+    margin-left: 260px;
+}
+
+.meriys__title {
+    font-weight: 900;
+    font-size: 17px;
+    letter-spacing: 0.005em;
+}
+
+.merits__text {
+    font-size: 15px;
+}
+
+.merits__link {
+    font-size: 14px;
+    color: #2ee3cd;
+}
+
+.form__body {
+    width: 390px;
+    background: #4649ad;
+    border: 1ps solid rgba(70, 73, 173, 0.25);
+    box-shadow: 0px 15px 60px rgba(70, 73, 173, 0.25);
+    border-radius: 40px;
+    padding: 62px 48px;
+    color: #fff;
+}
+
+.form__title {
+    margin-bottom: 30px;
+}
+
+.form__input {
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    padding: 12px 0;
+    margin-bottom: 5px;
+    background: none;
+    display: block;
+    width: 100%;
+}
+
+.btn-act_form {
+    border: 0;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1400px) {
+    .container {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .pic {
+        background: url('../images/main.png') no-repeat right 150px;
+    }
+
+    .merits__item_second, .merits__item_third {
+        margin-left: 0;
+    }
+
+    .merits__item_first::after, .merits__item_second:after {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .pic {
+        background: url('../images/main.png') no-repeat right 150px;
+    }
+
+    .content-wrapper {
+        flex-direction: column;
+    }
+
+    .form {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .pic {
+        display: none;
+    }
+}
